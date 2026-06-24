@@ -41,6 +41,7 @@
 2026-06-20 | shepard | wake=06:47 | naps=[08:17-08:49, 10:34-11:11, 13:06-14:45, 16:05-16:30] | bed=18:20 | notes=CONFIRMED date; drove to cottage
 2026-06-21 | shepard | wake=09:00 | naps=[10:40-12:06, 13:53-14:15, 15:50-16:50] | bed=18:40 | night_wakes=05:36 stir->resettled 06:15 (counted as night sleep); 02:00 overfull/chatty | notes=cottage; settled smooth at bedtime
 2026-06-22 | shepard | wake=06:55 | naps=[unknown] | bed=unknown | night_wakes=02:00 chatty (resolved) | notes=TODAY; cottage; 18 wks
+2026-06-24 | shepard | wake=unknown | naps=[unknown, unknown, 15:04-ongoing] | bed=unknown | notes=nap #3 start logged live at 15:04 ET; wake + naps 1-2 not yet logged; 18 wks
 
 
 # ---- GEORGIA — DAILY SLEEP ----

@@ -12,13 +12,16 @@ The kids:
 
 ## 0. ALWAYS-ON RULES (do these every single session)
 
-1. **Pull the live system date and time first — ALWAYS IN EASTERN TIME.** The family is in
-   the US Eastern timezone (`America/New_York`), and EVERY time in baby-log.txt is local ET.
-   The system clock runs in **UTC**, which is ~4–5h ahead of ET, so a bare `date` will be
-   wrong for this family. ALWAYS read the clock as ET: run `TZ='America/New_York' date`
-   (never a bare `date`). NEVER infer the date from the log or from conversation. State
-   today's ET date + time back to the user so they know you're anchored. Example:
-   "Today is Wednesday, June 24, 2026, 8:48 AM ET."
+1. **Pull the live system date and time first — ALWAYS IN EASTERN TIME, AND RE-PULL EVERY
+   TIME YOU STATE ONE.** The family is in the US Eastern timezone (`America/New_York`), and
+   EVERY time in baby-log.txt is local ET. The system clock runs in **UTC**, which is ~4–5h
+   ahead of ET, so a bare `date` will be wrong for this family. ALWAYS read the clock as ET:
+   run `TZ='America/New_York' date` (never a bare `date`). **Re-run that command immediately
+   before EVERY time you state or compute a time — a session can run for hours, so NEVER
+   reuse a reading from earlier in the conversation. A stale clock value is just as wrong as
+   the wrong timezone.** NEVER infer the date or time from the log or from conversation.
+   State today's ET date + time back to the user so they know you're anchored. Example:
+   "Today is Wednesday, June 24, 2026, 10:39 AM ET."
 2. **Read baby-log.txt in full** before advising. Treat it as memory.
 3. **Compute each child's current age** from birthdate + today's live date. Don't hardcode ages.
 4. When the user gives a new data point, **append it to baby-log.txt** in the correct

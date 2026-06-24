@@ -41,7 +41,7 @@
 2026-06-20 | shepard | wake=06:47 | naps=[08:17-08:49, 10:34-11:11, 13:06-14:45, 16:05-16:30] | bed=18:20 | notes=CONFIRMED date; drove to cottage
 2026-06-21 | shepard | wake=09:00 | naps=[10:40-12:06, 13:53-14:15, 15:50-16:50] | bed=18:40 | night_wakes=05:36 stir->resettled 06:15 (counted as night sleep); 02:00 overfull/chatty | notes=cottage; settled smooth at bedtime
 2026-06-22 | shepard | wake=06:55 | naps=[unknown] | bed=unknown | night_wakes=02:00 chatty (resolved) | notes=TODAY; cottage; 18 wks
-2026-06-24 | shepard | wake=unknown | naps=[unknown, unknown-13:20] | bed=unknown | notes=CORRECTION @15:21 ET: the 15:04 "nap #3" logged earlier was a MISFIRE/false-start with NO sleep -> retracted; he has been awake continuously since 13:20 (end of nap #2, confirmed PM). Nap #1 and nap #2 start times not yet logged. 18 wks
+2026-06-24 | shepard | wake=unknown | naps=[unknown, unknown-13:20, 15:41-ongoing] | bed=unknown | notes=15:04 "nap #3" was a misfire/false-start (retracted, see git history); awake 13:20-15:41 = 2h21m with a big overtired fight -> real nap #3 START 15:41. Nap #1 and nap #2 start times not yet logged. 18 wks
 
 
 # ---- GEORGIA — DAILY SLEEP ----

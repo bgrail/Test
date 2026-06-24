@@ -1,0 +1,79 @@
+# ============================================================
+# BABY SLEEP LOG — SOURCE OF TRUTH
+# ============================================================
+# Kids:
+#   Shepard (son)     b. 2026-02-18
+#   Georgia (daughter) b. 2024-01-10
+#
+# IMPORTANT: Calendar dates before ~2026-06-18 are APPROXIMATE
+# (chat date-drift during original tracking). The TIMES and the
+# day-to-day SEQUENCE are reliable; verify/correct old dates as
+# you can. Lines beginning with "~" have an approximate date.
+#
+# LINE FORMAT (sleep):
+#   DATE | child | wake=HH:MM | naps=[start-end, ...] | bed=HH:MM | night_wakes=note | notes=...
+#   Use 'unknown' for anything not logged. 24-hour time.
+#
+# LINE FORMAT (milestone):
+#   DATE | milestone | age | notes=...
+#
+# APPEND-ONLY. New inputs get added here. Never silently overwrite.
+# ============================================================
+
+
+# ---- SHEPARD — DAILY SLEEP ----
+~2026-05-07 | shepard | wake=06:30 | naps=[07:30-08:34, 09:45-10:30, 11:46-12:40, 13:55-14:32, 16:16-16:52] | bed=18:30 | notes=jetlag week, ~11 wks
+~2026-05-08 | shepard | wake=06:14 | naps=[07:24-08:30, 09:30-10:30, 11:40-13:45, 13:55-15:00] | bed=19:00 |
+~2026-05-09 | shepard | wake=07:00 | naps=[08:07-08:40, 09:30-10:30, 11:46-13:45, 13:50-14:21] | bed=18:14 |
+~2026-05-13 | shepard | wake=06:54 | naps=[08:18-09:30, 10:40-12:26, 13:40-14:35, 15:55-17:05] | bed=18:30 | notes=settling
+~2026-05-21 | shepard | wake=06:47 | naps=[08:26-08:50, 09:26-10:30, 11:42-13:45, 14:50-15:11] | bed=18:30 |
+~2026-05-25 | shepard | wake=06:30 | naps=[08:05-09:15, 10:36-11:12, 12:37-15:00, 16:07-16:38] | bed=18:00 | notes=regression begins
+~2026-05-29 | shepard | wake=06:20 | naps=[08:25-09:15, 10:40-12:15, 13:19-15:00, 15:50-16:30] | bed=17:34 | notes=earliest bedtime on record
+~2026-06-04 | shepard | wake=07:30 | naps=[08:56-11:10, 12:55-14:10, 15:15-17:10] | bed=18:30 | night_wakes=brutal | notes=peak regression (~14 wks)
+~2026-06-06 | shepard | wake=07:15 | naps=[08:45-09:33, 10:33-12:42, 14:05-14:48, 16:48-17:18] | bed=19:00 | notes="much better" night, regression easing
+~2026-06-07 | shepard | wake=07:00 | naps=[09:00-10:10, 11:30-13:05, 14:41-16:10] | bed=18:15 |
+~2026-06-08 | shepard | wake=07:23 | naps=[09:18-09:48, 11:36-13:43, 15:36-17:13] | bed=19:00 | notes=rolling back-to-belly consistently all day
+~2026-06-09 | shepard | wake=07:35 | naps=[08:56-10:00, 11:45-12:14, 13:53-15:05, 16:35-17:00] | bed=18:08 |
+~2026-06-10 | shepard | wake=08:00 | naps=[09:38-10:33, 12:36-13:30, 14:30-17:00] | bed=18:38 | notes=first clean 3-nap day (~17 wks)
+~2026-06-11 | shepard | wake=07:45 | naps=[09:15-10:38, 12:25-12:55, 14:10-14:45, 16:20-17:00] | bed=18:32 |
+~2026-06-12 | shepard | wake=07:35 | naps=[09:30-10:09, 11:17-12:07, 13:30-15:38, 17:10-17:40] | bed=19:12 | notes=raspberries milestone; false start -> final settle ~20:33
+~2026-06-13 | shepard | wake=07:30 | naps=[09:20-10:55, 12:11-14:30, 16:00-16:36] | bed=18:10 |
+2026-06-20 | shepard | wake=06:47 | naps=[08:17-08:49, 10:34-11:11, 13:06-14:45, 16:05-16:30] | bed=18:20 | notes=CONFIRMED date; drove to cottage
+2026-06-21 | shepard | wake=09:00 | naps=[10:40-12:06, 13:53-14:15, 15:50-16:50] | bed=18:40 | night_wakes=05:36 stir->resettled 06:15 (counted as night sleep); 02:00 overfull/chatty | notes=cottage; settled smooth at bedtime
+2026-06-22 | shepard | wake=06:55 | naps=[unknown] | bed=unknown | night_wakes=02:00 chatty (resolved) | notes=TODAY; cottage; 18 wks
+
+
+# ---- GEORGIA — DAILY SLEEP ----
+2026-06-20 | georgia | wake=07:30 | naps=[18:00-19:00 car-nap] | bed=~21:45 | notes=cottage; excited, no real daytime nap
+2026-06-21 | georgia | wake=06:00 | naps=[10:40-12:06] | bed=~19:00 | notes=cottage recovery nap day
+
+# GEORGIA — GENERAL PATTERN (not a single day; use for prediction):
+#   - NO-NAP is her best formula => bed 18:30-19:00, 11-12h night sleep
+#   - Any nap => cap 45-60 min, down by ~12:30; pushes bedtime to 20:30-21:00
+#   - ~4.5-5h of wake time before she's genuinely tired (her "time-to-tired" rhythm)
+#   - Total awake time/day target ~11.5-12h; total sleep need ~11-13h/24h
+#   - Fights bedtime hard regardless (high-FOMO); goal = shorter resistance, not zero
+#   - Sick early June (cold), recovered fast. Cottage nights run late on excitement.
+
+
+# ---- SHEPARD — MILESTONES (age at milestone) ----
+~2026-04-15 | social smiling | 6 wks |
+2026-05-07 | back-and-forth "conversations" | 11 wks |
+2026-05-07 | tracks + turns head toward sounds | 11 wks |
+2026-05-07 | hands to mouth deliberately | 11 wks |
+2026-05-07 | reaches toward objects | 11 wks |
+2026-05-07 | steady head control + bears weight | 11 wks |
+2026-05-07 | first laughs / wriggles | 11 wks |
+2026-05-21 | pulling to stand (supported) | 13 wks |
+2026-05-28 | full 90° tummy time | 14 wks |
+2026-06-05 | real laughs + squealing | 16 wks |
+2026-06-05 | full head control, minimal support | 16 wks |
+2026-06-05 | rolling attempts begin | 16 wks |
+2026-06-08 | rolling BACK-to-belly independently (rare to come first) | 16 wks 4 days |
+2026-06-08 | rolling consistently all day | ~16 wks |
+2026-06-12 | blowing raspberries | 17 wks 2 days |
+# Growth: 14.2 lb @ 15 wks (~50th percentile, healthy)
+# Note: advanced across motor + language. Georgia also advanced (walked ~8 mo, early language).
+
+
+# ---- END OF LOG (append new entries below this line) ----

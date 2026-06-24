@@ -41,7 +41,7 @@
 2026-06-20 | shepard | wake=06:47 | naps=[08:17-08:49, 10:34-11:11, 13:06-14:45, 16:05-16:30] | bed=18:20 | notes=CONFIRMED date; drove to cottage
 2026-06-21 | shepard | wake=09:00 | naps=[10:40-12:06, 13:53-14:15, 15:50-16:50] | bed=18:40 | night_wakes=05:36 stir->resettled 06:15 (counted as night sleep); 02:00 overfull/chatty | notes=cottage; settled smooth at bedtime
 2026-06-22 | shepard | wake=06:55 | naps=[unknown] | bed=unknown | night_wakes=02:00 chatty (resolved) | notes=TODAY; cottage; 18 wks
-2026-06-24 | shepard | wake=07:00 | naps=[09:00-10:00, 12:00-13:20, 15:41-16:15] | bed=unknown | notes=naps 60m/80m/34m; nap3 short=34m (overtired). 15:04 "nap #3" was a misfire (retracted, see git history). Windows 07->09=2h00, 10->12=2h00, 13:20->15:41=2h21 (over ceiling -> fight). Daytime so far=2h54m (under 3.5-4.5h band). Plan: 4th bridge catnap ~17:25 capped ~25m, bed ~18:45-19:00. 18 wks
+2026-06-24 | shepard | wake=07:00 | naps=[09:00-10:00, 12:00-13:20, 15:41-16:15, 17:29-ongoing] | bed=unknown | notes=naps 60m/80m/34m + 4th bridge catnap START 17:29 (live-logged at report; awake 16:15-17:29=1h14m, no fight). 15:04 "nap #3" was a misfire (retracted, see git history). Windows 07->09=2h00, 10->12=2h00, 13:20->15:41=2h21(over ceiling->fight), 16:15->17:29=1h14. Daytime pre-catnap=2h54m. Plan: cap catnap ~20-30m, wake by 18:00, bed ~18:45-19:00. 18 wks
 
 
 # ---- GEORGIA — DAILY SLEEP ----

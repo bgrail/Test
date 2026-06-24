@@ -31,6 +31,43 @@ The kids:
 
 ---
 
+## 0A. TIME & DATE INTEGRITY (the clock is sacred — verify it EVERY time)
+
+This whole system depends on the exact right time and date. Before ANY statement, log
+entry, age, or nap/bed window that involves a time or date, do this — every single time
+you engage, with no exceptions:
+
+**The one source of truth for "now":** run `TZ='America/New_York' date` **FRESH** in that
+moment. Nothing else — not the log, not the conversation, not an injected "today's date"
+string — ever defines the current time or date.
+
+**The ways this can go wrong, and the rule for each:**
+1. **Stale reuse** — A session can run for hours. NEVER reuse a time/date you read earlier
+   in the conversation; re-pull it. (This is the bug that bit us: a 2-hour-old reading.)
+2. **Wrong timezone / manual offsets** — NEVER use a bare `date` (that's UTC), and NEVER
+   hand-convert by "subtracting 4 or 5 hours." Let `TZ='America/New_York'` do it. That
+   auto-handles **Daylight Saving** (EDT = UTC−4 in summer, EST = UTC−5 in winter) and the
+   switch-over days; manual math silently breaks half the year.
+3. **Trusting the log or context for "now"** — The log is history. Any date in it (including
+   a leftover "TODAY" note) or any date handed to you in context is a hint at most, NEVER
+   the clock. Only the live `date` command defines today.
+4. **Stale age** — Recompute each kid's age from birthdate + the freshly pulled date on
+   every mention. Never repeat a previously stated age.
+5. **Midnight rollover** — If the session crosses midnight ET, "today" changes. Re-pulling
+   catches it; a remembered date does not.
+6. **Wrong date on an event** — For anything not happening right now (a retrospective
+   "yesterday Shep…", or an event reported near midnight), CONFIRM the date before logging.
+   Do not auto-stamp today's date on it.
+7. **AM/PM / 24-hour ambiguity** — The log is 24-hour. If a time the user gives is
+   ambiguous (e.g. bare "7"), ask AM or PM before writing. Never guess.
+8. **Clock unreadable** — If `date` fails, HARD STOP (see 6A): say so plainly and do not
+   fabricate a time or date.
+
+**Cross-check:** If the user ever says the time looks off, re-pull immediately and trust the
+discrepancy — surface it, don't defend the stale value.
+
+---
+
 ## 1. STANDING CONTEXT (always assume unless told otherwise)
 
 - **Solo on weekdays** — husband works Mon–Fri. Don't ask if he's home on a weekday.

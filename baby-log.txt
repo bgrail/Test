@@ -49,6 +49,7 @@
 2026-06-20 | georgia | wake=07:30 | naps=[18:00-19:00 car-nap] | bed=~21:45 | notes=cottage; excited, no real daytime nap
 2026-06-21 | georgia | wake=06:00 | naps=[10:40-12:06] | bed=~19:00 | notes=cottage recovery nap day
 2026-06-24 | georgia | wake=unknown | naps=[unknown] | bed=19:57 | notes=bedtime logged live (fell asleep 19:57); daytime data (wake + any nap) not logged today. ~2y 5.5m
+2026-06-25 | georgia | wake=08:15 | naps=[] | bed=unknown | notes=woke 08:15 (late start; followed 19:57 bed = ~12h18m overnight). PLAN: no-nap optimized day; tiredness dip expected ~12:45-13:15 (push through w/ outdoor/scene change); target bed ~19:45 (routine start ~18:30). Fallback if she must nap: cap 45-60m, down by ~13:00, bed slips to ~21:00. ~2y 5.5m
 
 # GEORGIA — GENERAL PATTERN (not a single day; use for prediction):
 #   - NO-NAP is her best formula => bed 18:30-19:00, 11-12h night sleep

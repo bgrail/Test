@@ -42,7 +42,7 @@
 2026-06-21 | shepard | wake=09:00 | naps=[10:40-12:06, 13:53-14:15, 15:50-16:50] | bed=18:40 | night_wakes=05:36 stir->resettled 06:15 (counted as night sleep); 02:00 overfull/chatty | notes=cottage; settled smooth at bedtime
 2026-06-22 | shepard | wake=06:55 | naps=[unknown] | bed=unknown | night_wakes=02:00 chatty (resolved) | notes=TODAY; cottage; 18 wks
 2026-06-24 | shepard | wake=07:00 | naps=[09:00-10:00, 12:00-13:20, 15:41-16:15, 17:29-18:04] | bed=19:43 | notes=naps 60m/80m/34m/35m(bridge catnap). 15:04 "nap #3" was a misfire (retracted, see git history). Windows 07->09=2h00, 10->12=2h00, 13:20->15:41=2h21(over ceiling->fight), 16:15->17:29=1h14, 18:04->19:43=1h39(final, settled). Daytime total=3h29m (bottom of 3.5-4.5h band). BED 19:43 = 43m past 19:00 target; post-catnap final window ran 1h39m, so he needed more awake time than planned (catnap left more in tank). 18 wks
-2026-06-25 | shepard | wake=07:40 | naps=[unknown] | bed=unknown | notes=overnight 19:43->07:40 = ~11h57m (solid, in 11-12h band). 18 wks 1 day
+2026-06-25 | shepard | wake=07:40 | naps=[09:05-ongoing] | bed=unknown | notes=overnight 19:43->07:40 = ~11h57m (solid). Nap1 START ~09:05 (reported ~5m before 09:10 read); window 07:40->09:05 = 1h25m (slightly under his 90-120 band). 18 wks 1 day
 
 
 # ---- GEORGIA — DAILY SLEEP ----

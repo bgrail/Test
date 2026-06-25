@@ -76,7 +76,7 @@
 2026-06-08 | rolling consistently all day | ~16 wks |
 2026-06-12 | blowing raspberries | 17 wks 2 days |
 # Growth: 14.2 lb @ 15 wks (~50th percentile, healthy)
-2026-06-25 | growth | 18 wks 1 day | notes=weight 15.4 lb + length ~25 in (reported by mom). Weight up from 14.2 lb @ 15 wks = +1.2 lb over ~3 wks. Weight-for-length reads proportional. Percentile/plot is pediatrician's call, not coach's.
+2026-06-25 | growth | 18 wks 1 day | notes=weight 15.4 lb + length ~25 in (reported by mom); exclusively breastfed. Weight up from 14.2 lb @ 15 wks = +1.2 lb over ~3 wks. Weight-for-length reads proportional. EBF -> WHO growth standard is the correct chart (CDC chart can make breastfed babies look like they dip in mo 3-12; that is normal, not a problem). Percentile/plot is pediatrician's call, not coach's.
 # Note: advanced across motor + language. Georgia also advanced (walked ~8 mo, early language).
 
 
